@@ -1,0 +1,2 @@
+ALTER TABLE "stock_movements" ADD CONSTRAINT "stock_movements_type_check" CHECK ("stock_movements"."type" IN ('RECEIPT', 'ISSUE'));--> statement-breakpoint
+ALTER TABLE "stock_movements" ADD CONSTRAINT "stock_movements_quantity_check" CHECK ("stock_movements"."quantity" > 0);

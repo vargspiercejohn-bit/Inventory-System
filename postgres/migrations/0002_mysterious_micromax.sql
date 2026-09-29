@@ -1,0 +1,1 @@
+ALTER TABLE "stock_movements" ADD COLUMN "requested_by" text DEFAULT '' NOT NULL;
